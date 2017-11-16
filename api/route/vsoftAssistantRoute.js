@@ -4,7 +4,7 @@ module.exports = function(app){
 
   //empList Routes
   app.route('/branch')
-    .get(emp.get_branch)
+    // .get(emp.get_branch)
     .post(emp.get_branchname)
 
   // app.route('/employee/:empName')
