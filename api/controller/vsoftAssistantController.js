@@ -5,14 +5,14 @@ exports.get_branch = function(req, res){
     var responseJson = {};
 
       // If speech or displayText is defined, use it to respond (if one isn't defined use the other's value)
-      responseJson.speech = responseToUser.speech || responseToUser.displayText;
-      responseJson.displayText = responseToUser.displayText || responseToUser.speech;
+      responseJson.speech = "Madhapur" || "Madhapur";
+      responseJson.displayText = "Madhapur" || "Madhapur";
 
       // Optional: add rich messages for integrations (https://dialogflow.com/docs/rich-messages)
-      responseJson.data = responseToUser.richResponses;
+      responseJson.data = "Madhapur";
 
       // Optional: add contexts (https://dialogflow.com/docs/contexts)
-      responseJson.contextOut = responseToUser.outputContexts;
+      // responseJson.contextOut = "";
 
       // response.json(responseJson);
 
